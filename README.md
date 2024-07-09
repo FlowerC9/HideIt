@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>SarahaApp Backend</h1>
+  <h1>HideIt</h1>
   <p>Where you can send and receive anonymous or public messages as you like.</p>
       <img src="https://img.shields.io/badge/Node%20js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="nodejs" />
       <img src="https://img.shields.io/badge/Express%20js-000000?style=for-the-badge&logo=express&logoColor=white" alt="express" />
@@ -50,7 +50,7 @@ To run this project, you will need to add the following variables to your `.env`
 ```
 PORT = 3000
 
-DB_CONNECTION_URL = mongodb://127.0.0.1:27017/saraha-backend
+DB_CONNECTION_URL = Your Monogo_DB URI
 
 SALT =
 
@@ -88,7 +88,7 @@ This project uses `MongoDB` as database and `NodeJS` , install them in your loca
 Clone the project
 
 ```bash
-  git clone https://github.com/yahya-saad/SarahaApp-Backend.git
+  git clone https://github.com/FlowerC9/HideIt.git
 ```
 
 Go to the project directory
@@ -106,6 +106,9 @@ Install dependencies
 Start the server
 
 ```bash
+  //for locally
+  npm run dev 
+  //for development purpose
   npm start
 ```
 
@@ -117,4 +120,4 @@ node .
 
 Setup completed , test endpoints using postman collection in repository and for more inf about API just read [documentation](#notebook_with_decorative_cover-documentation). 😁
 
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yahya-saad-a98801187)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/Monojit-Tewari)
